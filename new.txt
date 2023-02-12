@@ -1,6 +1,6 @@
 Hello world
 Swift
-+privet
+privety
 
 import UIKit
 
