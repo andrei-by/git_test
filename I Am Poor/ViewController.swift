@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         hiddeLabel.alpha = 0.0
         self.hiddeLabel.isHidden = false
         UIView.animate(withDuration: 2.0, delay: 0.0) {
-            self.hiddeLabel.alpha = 1.0
+            self.hiddeLabel.alpha = 0.9
         }
     }
 
