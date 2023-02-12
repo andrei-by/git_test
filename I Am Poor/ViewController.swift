@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     @objc func handleShowLabel() {
-        hiddeLabel.alpha = 0.2
+        hiddeLabel.alpha = 0.3
         self.hiddeLabel.isHidden = false
         UIView.animate(withDuration: 2.0, delay: 0.0) {
             self.hiddeLabel.alpha = 0.9
